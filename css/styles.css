@@ -209,11 +209,6 @@ footer a {
   color: Tomato;
 }
 
-
-/* li {
-  display: flex;
-} */
-
 ul {
   display: flex;
   flex-direction: row;
