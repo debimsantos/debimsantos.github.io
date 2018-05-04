@@ -210,8 +210,14 @@ footer a {
 }
 
 
-li {
+/* li {
   display: flex;
+} */
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
 }
 
 li a {
