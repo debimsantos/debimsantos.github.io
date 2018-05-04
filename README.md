@@ -1,4 +1,4 @@
-# PORTFOLIO 
+# Portfolio
 
 An online portfolio to showcase projects in Google-Udacity Front-end Development Course.
 
