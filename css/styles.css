@@ -5,33 +5,36 @@ body, html {
   height: 100%;
   }
 
-h1, h2, h3, {
+h1 {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
   margin-left: auto;
   margin-right: auto;
   line-height: 1.0;
 }
 
-h1 {
-  font-size: 24px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: normal;
-}
-
 h2 {
-  font-size: 18px;
+  font-size: 14px;
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.0;
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 12px;
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   padding: .5em;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.0;
 }
 
 h4 {
-  font-size: 14px;
+  font-size: 10px;
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   padding: .5em;
@@ -43,7 +46,7 @@ h5 {
 }
 
 p {
-  font-size: 14px;
+  font-size: 12px;
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
 }
@@ -103,7 +106,7 @@ footer a {
   margin: auto;
   padding: 60px 0;
   width: 100%;
-  height: 190px;
+  height: auto;
   background-image: url("../img/banner_img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -141,7 +144,8 @@ footer a {
 
 .project1 {
   width: 100%;
-  height: 400px;
+  height: auto;
+  min-height: 300px;
   background-image: url("../img/bird.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -151,7 +155,8 @@ footer a {
 
 .project2 {
   width: 100%;
-  height: 400px;
+  height: auto;
+  min-height: 300px;
   background-image: url("../img/flowers.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -161,7 +166,8 @@ footer a {
 
 .project3 {
   width: 100%;
-  height: 400px;
+  height: auto;
+  min-height: 300px;
   background-image: url("../img/goldengate.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -203,14 +209,14 @@ footer a {
   color: Tomato;
 }
 
-
-li {
-    float: left;
-    display: inline;
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
 }
 
 li a {
-  display: block;
+  display: flex;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -248,7 +254,7 @@ li a:hover {
     .welcome {
       padding: 80px 0;
       width: 100%;
-      height: 300px;
+      min-height: 39vh;
     }
 
     .description {
@@ -270,7 +276,8 @@ li a:hover {
 
     .project1 {
       width: 100%;
-      height: 350px;
+      height: auto;
+      min-height: 34vh;
       background-image: url("../img/bird.jpg");
       background-repeat: no-repeat;
       background-size: cover;
@@ -280,7 +287,8 @@ li a:hover {
 
     .project2 {
       width: 100%;
-      height: 350px;
+      height: auto;
+      min-height: 34vh;
       background-image: url("../img/flowers.jpg");
       background-repeat: no-repeat;
       background-size: cover;
@@ -290,13 +298,45 @@ li a:hover {
 
     .project3 {
       width: 100%;
-      height: 350px;
+      height: auto;
+      min-height: 34vh;
       background-image: url("../img/goldengate.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       align-items: center;
       margin-top: 40px;
       margin-bottom: 40px;
+    }
+
+    h1 {
+      font-size: 24px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: normal;
+    }
+
+    h2 {
+      font-size: 18px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: normal;
+    }
+
+    h3 {
+      font-size: 16px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: lighter;
+      padding: .5em;
+    }
+
+    h4 {
+      font-size: 12px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: lighter;
+      padding: .5em;
+    }
+    p {
+      font-size: 14px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: normal;
     }
 }
 
@@ -306,7 +346,7 @@ li a:hover {
       .welcome {
         padding: 60px 0;
         width: 100%;
-        height: 600px;
+        min-height: 58vh;
         background-image: url("../img/banner_img2.jpg");
         background-repeat: no-repeat;
         background-size: cover;
@@ -328,7 +368,8 @@ li a:hover {
 
       .project1 {
         width: 30%;
-        height: 450px;
+        height: auto;
+        min-height: 43vh;
         background-image: url("../img/bird.jpg");
         background-repeat: no-repeat;
         background-size: cover;
@@ -338,7 +379,8 @@ li a:hover {
 
       .project2 {
         width: 30%;
-        height: 450px;
+        height: auto;
+        min-height: 43vh;
         background-image: url("../img/flowers.jpg");
         background-repeat: no-repeat;
         background-size: cover;
@@ -348,7 +390,8 @@ li a:hover {
 
       .project3 {
         width: 30%;
-        height: 450px;
+        height: auto;
+        min-height: 43vh;
         background-image: url("../img/goldengate.jpg");
         background-repeat: no-repeat;
         background-size: cover;
