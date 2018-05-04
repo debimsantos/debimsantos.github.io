@@ -142,6 +142,7 @@ footer a {
 .project1 {
   width: 100%;
   height: auto;
+  min-height: 300px;
   background-image: url("../img/bird.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -152,6 +153,7 @@ footer a {
 .project2 {
   width: 100%;
   height: auto;
+  min-height: 300px;
   background-image: url("../img/flowers.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -162,6 +164,7 @@ footer a {
 .project3 {
   width: 100%;
   height: auto;
+  min-height: 300px;
   background-image: url("../img/goldengate.jpg");
   background-repeat: no-repeat;
   background-size: cover;
