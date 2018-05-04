@@ -270,7 +270,8 @@ li a:hover {
 
     .project1 {
       width: 100%;
-      height: 350px;
+      height: auto;
+      min-height: 350px;
       background-image: url("../img/bird.jpg");
       background-repeat: no-repeat;
       background-size: cover;
@@ -280,7 +281,8 @@ li a:hover {
 
     .project2 {
       width: 100%;
-      height: 350px;
+      height: auto;
+      min-height: 350px;
       background-image: url("../img/flowers.jpg");
       background-repeat: no-repeat;
       background-size: cover;
@@ -290,7 +292,8 @@ li a:hover {
 
     .project3 {
       width: 100%;
-      height: 350px;
+      height: auto;
+      min-height: 350px;
       background-image: url("../img/goldengate.jpg");
       background-repeat: no-repeat;
       background-size: cover;
