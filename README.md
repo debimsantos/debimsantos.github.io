@@ -1,19 +1,19 @@
 # Portfolio
 
-An online portfolio to showcase projects in Google-Udacity Front-end Development Course.
+An online portfolio to showcase completed projects in Google-Udacity Front-end Development Course.
 
 ## Sections
 
 ### Featured Works
-Contains project image and details
+Contains feature image and a paragraph detailing project.
 
 ### About
-TBD
+A short paragraph about the 
 
 ### Contact
 TBD
 
-## Feature (To Dos:)
+## Features/Functionalities (To Dos:)
 1) Responsive - on-going
 
 2) Personalized logo - TBD
