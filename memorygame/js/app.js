@@ -93,7 +93,7 @@
     if (card.classList.contains('match')) {
       return;
     }
-    card.classList.add('show');
+    card.classList.add('show','open');
     addToOpenCards(card);
     reduceStars();
   }
@@ -109,9 +109,9 @@
 
 // Match cards - if cards match, lock in open position, if not close card
   function matchCards() {
-    moveCounter();
 
     if (openCards.length == 2) {
+      moveCounter();
 
       let li1 = openCards[0].childNodes[0];
       let li2 = openCards[1].childNodes[0];
@@ -168,14 +168,15 @@
       }
   }
 
-  // Timer functionf or when card is clicked
+  // Timer function for when card is clicked
   function startTimer() {
     if (timer !== null) {
       return;
     }
 		timer = setInterval(function() {
 			seconds ++;
-      // Converting time into seconds and minutes
+      // Converting time into seconds and minutes modified from
+      //https://appfurnace.zendesk.com/hc/en-us/community/posts/255456346-Create-a-countdown-timer-
 			document.getElementById("sec").innerText = seconds % 60;
 			document.getElementById("min").innerText = parseInt(seconds / 60);
 		}, 1000);
