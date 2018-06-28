@@ -46,4 +46,5 @@ CSS, HTML and javascript
 1. Font Awesome for the card design and stars
 2. Google Fonts for Coda
 
-## Implementation URL: (TBD)
+## Implementation URL: 
+https://debimsantos.github.io/memorygame/
