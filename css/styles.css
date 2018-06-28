@@ -146,7 +146,7 @@ footer a {
   width: 100%;
   height: auto;
   min-height: 300px;
-  background-image: url("../img/pixel_art.png");
+  background-image: url("../img/pixel_art.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
@@ -157,7 +157,7 @@ footer a {
   width: 100%;
   height: auto;
   min-height: 300px;
-  background-image: url("../img/flowers.jpg");
+  background-image: url("../img/memorygame.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
@@ -168,7 +168,7 @@ footer a {
   width: 100%;
   height: auto;
   min-height: 300px;
-  background-image: url("../img/goldengate.jpg");
+  background-image: url("../img/arcadegame.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
