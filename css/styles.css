@@ -176,10 +176,10 @@ footer a {
 }
 
 .title, .description {
-  background-color: white;
-  opacity: 0.6;
-  filter: alpha(opacity=60); /* For IE8 and earlier */
-  color: black;
+  background-color: black;
+  opacity: 0.90;
+  filter: alpha(opacity=90); /* For IE8 and earlier */
+  color: white;
   font-weight: bold;
 }
 
