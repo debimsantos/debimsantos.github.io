@@ -278,7 +278,7 @@ li a:hover {
       width: 100%;
       height: auto;
       min-height: 34vh;
-      background-image: url("../img/bird.jpg");
+      background-image: url("../img/pixel_art.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       align-items: center;
@@ -289,7 +289,7 @@ li a:hover {
       width: 100%;
       height: auto;
       min-height: 34vh;
-      background-image: url("../img/flowers.jpg");
+      background-image: url("../img/memorygame.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       align-items: center;
@@ -300,7 +300,7 @@ li a:hover {
       width: 100%;
       height: auto;
       min-height: 34vh;
-      background-image: url("../img/goldengate.jpg");
+      background-image: url("../img/arcadegame.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       align-items: center;
@@ -370,7 +370,7 @@ li a:hover {
         width: 30%;
         height: auto;
         min-height: 43vh;
-        background-image: url("../img/bird.jpg");
+        background-image: url("../img/pixel_art.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         align-items: center;
@@ -381,7 +381,7 @@ li a:hover {
         width: 30%;
         height: auto;
         min-height: 43vh;
-        background-image: url("../img/flowers.jpg");
+        background-image: url("../img/memorygame.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         align-items: center;
@@ -392,7 +392,7 @@ li a:hover {
         width: 30%;
         height: auto;
         min-height: 43vh;
-        background-image: url("../img/goldengate.jpg");
+        background-image: url("../img/arcadegame.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         align-items: center;
