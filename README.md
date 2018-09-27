@@ -2,16 +2,16 @@
 
 An online portfolio to showcase completed projects in Google-Udacity Front-end Development Course.
 
-## Sections
+## Sections / Pages
 
 ### Featured Works
 Contains feature image and a paragraph detailing project.
 
 ### About
-A short paragraph about the 
+Coming Soon
 
 ### Contact
-TBD
+Coming Soon
 
 ## Features/Functionalities (To Dos:)
 1) Responsive - on-going
@@ -20,4 +20,5 @@ TBD
 
 3) Add links to Social Media icons
 
-See implementation here: https://debimsantos.github.io
+## Implementation:
+ https://debimsantos.github.io
